@@ -24,6 +24,12 @@ In the case of three players (3h-uel), player one's optimal strategy is a bit mo
 
 Thus, $W=1$ and $W_{max}=0.4$.
 
-## Summary Results Table
+## Summary
 
-e.g. n, player prob (1,2,3..), best chance, prob of best chance
+All of the above analysis has been completed before, and is summarised below. Where this project becomes novel is in considering $n>3$ and forming generalised expressions, which we shall do in the next sections.
+
+| nh-uel | $W_{1}$ | $W_{2}$ | $W_{3}$ | W | $W_{max}$ |
+| ------ | ------- | ------- | ------- | - | --------- |
+| 1h-uel | 1 | - | - | 1 | 1 |
+| 2h-uel | 0.5 | 0.5 | - | 1, 2 | 0.5 |
+| 3h-uel | 0.4 | 0.38 | 0.22 | 1 | 0.4 |
