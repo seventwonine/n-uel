@@ -1,4 +1,4 @@
-# 01-Introduction
+# 01-introduction
 
 ## Formal Definition of Problem
 
@@ -22,8 +22,14 @@ What is the optimal strategy for any given player, and which player has the grea
 
 - Consider alternate accuracy probability distributions. e.g. an intesting case being for $n=3$, $p_{i}=1$, no one should ever 'fruit' anyone else as they will then immediately be 'fruited' by the remaining player. Therefore the game never ends. This can be remedied by altering the goal of the players to 'fruit' as many other players as possible rather than surviving until the end.
 - Consider alternate 'fruiting' orders e.g. for a given number of players can you construct a 'fruiting' order that gives the most balanced survival distribution for all the players.
+- Consider scenarios where the amount of fruit each player has is finite and / or different
 - Consider whether machine learning methods can be implemented for understanding more complex setups of the scenario
+- Consider the quantum analogue of this classical game
 
-## Inspiration
+## Inspiration and Novelty
 
 This project was inspired by the 'Triangular Gunfight' question in Alex Bellos' book 'Can You Solve My Problems?', which focuses specifically on the case $n=3$. This scenario was termed a 'Truel', inspiring the terminology adopted in this project of 'n-uel'. The problem discussed in this project has been reframed in terms of throwing fruit, rather than shooting guns, as that is more 'apple-ealing' (get it). Hence, players are referred to as having been 'fruited' when they are hit and eliminated, and instead of 'shoot' we use 'fruit'.
+
+Analysis of the quantum version of this game was inspired by the arXiv paper 'Quantum two and three person duels' by Adrian P. Flitney and Derek Abbott.
+
+The novelty in this project comes from considering cases of $n>3$.
